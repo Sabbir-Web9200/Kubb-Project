@@ -1,0 +1,731 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/*============================== naveber part start ==============================================*/
+
+* {
+     margin: 0;
+     padding: 0;
+     outline: 0;
+     box-sizing: border-box;
+}
+
+ul,ol {
+     list-style: none;
+}
+
+a {
+     text-decoration: none;
+     display: inline-block;
+}
+
+img {
+     width: 100%;
+     max-width: 100%;
+     vertical-align: middle;
+}
+
+.clear {
+     clear: both;
+}
+
+.container {
+     width: 1170px;
+     margin: 0px auto;
+}
+
+#naveber {
+     width: 100%;
+     height: 90px;
+     background-color: black;
+}
+
+.main_row {
+     line-height: 90px;
+}
+
+.main_row .main_log {
+     width: 30%;
+     float: left;
+}
+
+.main_log img {
+     width: 100px;
+     height: 25px;
+}
+
+.main_row .main_menu {
+     width: 70%;
+     float: left;
+}
+
+.main_row .main_menu ul {
+     float: right;
+}
+
+.main_row .main_menu li {
+     float: left;
+}
+
+.main_row .main_menu li a {
+     margin-left: 44px;
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 700;
+     text-transform: uppercase;
+     color: #ffffff;
+     transition: all linear .3s;
+}
+
+.main_row .main_menu li a:hover {
+     color: #28b8d8;
+}
+
+/*============================== naveber part end ==============================================*/
+
+/*============================== banner part start ==============================================*/
+
+#banner {
+     padding-top: 241px;
+     padding-bottom: 252px;
+     background: url('../image/bannerr_bg.png');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.head_part h1 {
+     font-size: 50px;
+     font-weight: 700;
+     font-family: 'Roboto', sans-serif;
+     color: #ffffff;
+     text-transform: uppercase;
+     text-align: center;
+     margin-bottom: 20px;
+}
+
+.head_part h3 {
+     font-size: 40px;
+     font-weight: 300;
+     font-family: 'Roboto Slab', serif;
+     color: #ffffff;
+     text-transform: uppercase;
+     word-spacing: 8px;
+     text-align: center;
+     margin-bottom: 20px;
+}
+
+.head_part p {
+     font-size: 14px;
+     font-weight: 300;
+     font-family: 'Roboto Slab', serif;
+     color: #ffffff;
+     text-align: center;
+
+}
+
+/*============================== banner part end ==============================================*/
+
+/*============================== services part start ==============================================*/
+
+
+#services {
+     padding-top: 80px;
+     padding-bottom: 83px;
+     background-color: #f9f9f9;
+}
+
+.services_part .services_text h1 {
+     font-size: 30px;
+     font-family: 'Roboto Slab', serif;
+     font-weight: 300;
+     color: #444444;
+     margin-bottom: 30px;
+     text-align: center;
+}
+
+.services_part .services_text p {
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #666666;
+     margin-bottom: 78px;
+     text-align: center;
+}
+
+.services_part .services_text h3 {
+     font-size: 18px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 700;
+     color: #444444;
+     margin-bottom: 30px;
+     text-align: center;
+     text-transform: uppercase;
+}
+
+.services_row .services_col {
+     width: 368px;
+     border: 1px solid #e3e3e3;
+     padding: 15px 15px 26px 15px;
+     background-color: #ffffff;
+     float: left;
+     margin-right: 30px;
+}
+
+.services_row .services_col:nth-child(3) {
+     margin-right: 0px;
+}
+
+.services_textarea h2 {
+     font-size: 17px;
+     font-family: 'Roboto Slab', serif;
+     font-weight: 700;
+     color: #444444;
+     margin-top: 25px;
+     text-align: center;
+     margin-bottom: 18px;
+}
+
+.services_textarea p {
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #666666;
+     text-align: center;
+}
+
+
+/*============================== services part end ==============================================*/
+
+
+/*============================== instagram part start ==============================================*/
+
+
+#instagram {
+     padding-top: 51px;
+     padding-bottom: 49px;
+     background-color: #2c2c2c;
+     border-bottom: 1px solid #e3e3e3;
+}
+
+.instra_text h2 {
+     font-size: 18px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 700;
+     color: #d5d5d5;
+     text-align: center;
+     text-transform: uppercase;
+     position: relative;
+     margin-bottom: 43px;
+}
+
+.instra_text h2::before {
+     content: '';
+     position: absolute;
+     width: 100px;
+     height: 1px;
+     background-color: #535353;
+     top: 50%;
+     left: 351px;
+}
+
+.instra_text h2::after {
+     content: '';
+     position: absolute;
+     width: 100px;
+     height: 1px;
+     background-color: #535353;
+     top: 50%;
+     right: 351px;
+}
+
+.instra_imag {
+     margin-bottom: 60px;
+}
+
+.instra_imag .image {
+     width: 303.6px;
+     float: left;
+}
+
+.instra_button {
+     width: 177px;
+     border: 1px solid #797979;
+     margin: 0px auto;
+}
+
+.instra_button a {
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #a6a6a6;
+     text-align: center;
+     padding: 16px 20px;
+     text-transform: uppercase;
+}
+
+
+/*============================== instagram part end ==============================================*/
+
+
+/*============================== jurnal part start ==============================================*/
+
+
+
+#jurnal {
+     padding-top: 77px;
+     padding-bottom: 80px;
+     background-color: #f9f9f9;
+}
+
+.jurnal_text6 h3 {
+     font-size: 18px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 700;
+     color: #444444;
+     text-align: center;
+     text-transform: uppercase;
+     position: relative;
+     margin-bottom: 30px;
+}
+
+.jurnal_text6 h3::before {
+     content: '';
+     position: absolute;
+     width: 100px;
+     height: 1px;
+     background-color: #d9d9d9;
+     top: 50%;
+     left: 351px;
+}
+
+.jurnal_text6 h3::after {
+     content: '';
+     position: absolute;
+     width: 100px;
+     height: 1px;
+     background-color: #d9d9d9;
+     top: 50%;
+     right: 351px;
+}
+
+.title_image_row .title_image_col {
+     width: 368px;
+     border: 1px solid #e3e3e3;
+}
+
+.title_image_col {
+     padding-top: 26px;
+     padding-bottom: 24px;
+     float: left;
+     margin-right: 30px;
+}
+
+.title_image_col:nth-child(3) {
+     margin-right: 0px;
+}
+
+.title_col h4 {
+     font-size: 16px;
+     font-family: 'Roboto Slab', serif;
+     font-weight: 700;
+     color: #444444;
+     text-align: center;
+}
+
+
+.title_col p {
+     font-size: 12px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #999999;
+     text-align: center;
+     margin-top: 15px;
+}
+
+.image_col img {
+     width: 368px;
+     margin-top: 22px;
+}
+
+.text_contact p {
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #666666;
+     text-align: left;
+     margin-top: 25px;
+     margin-left: 25px;
+     margin-right: 31px;
+     margin-bottom: 24px;
+}
+
+.continue p {
+     width: 102px;
+     font-size: 11px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #999999;
+     text-transform: uppercase;
+     text-align: left;
+     margin-left: 26px;
+     position: relative;
+     float: left;
+}
+
+.continue p::after {
+     content: '';
+     width: 100%;
+     height: 1px;
+     background-color: #28b8d8;
+     top: 100%;
+     left: 0px;
+     position: absolute;
+}
+
+.head p {
+     font-size: 11px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #999999;
+     float: right;
+     margin-right: 33px;
+}
+
+
+/*============================== jurnal part end ==============================================*/
+
+
+/*============================== about part start ==============================================*/
+ 
+
+#about{
+     padding-bottom: 81px;
+     background-color: #f9f9f9;
+}
+
+.about_col{
+      float: left;
+}
+.about_col .header1 h3{
+     font-size: 18px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 700;
+     color: #444444;
+     text-transform: uppercase;
+     margin-bottom: 30px;
+     position: relative;
+}
+
+.about_col .header1 h3::after{
+     content: '';
+     width: 100px;
+     height: 1px;
+     background-color: #d9d9d9;
+     top: 50%;
+     left: 186px;
+     position: absolute;
+}
+.kuub_abouttext .kuub_image{
+     float: left;
+}
+.kuub_abouttext .kuub_image img{
+     width: 196px;
+}
+
+.kuub_text{
+     float: left;
+}
+
+.kuub_text p{
+     width: 345px;
+     margin-left: 26px;
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #666666;
+     line-height: 23px;
+}
+
+.kuub_text span{
+     font-size: 18px;
+     font-family: 'Roboto Slab', serif;
+     font-weight: 300;
+     color: #666666;
+     display: inline-block;
+     margin-bottom: 29px;
+}
+
+.service_col{
+     margin-top: 4px;
+    float: left;
+    margin-left: 37px;
+}
+
+.service_col .head2 h2{
+     font-size: 18px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 700;
+     color: #444444;
+     text-transform: uppercase;
+     position: relative;
+     margin-bottom: 26px; 
+} 
+
+.service_col .head2 h2::after{
+     content: '';
+     width: 100px;
+     height: 1px;
+     background-color: #d9d9d9;
+     top: 50%;
+     left: 139px;
+     position: absolute;
+}
+
+.service_col_log{
+     margin-left: 6px;
+}
+
+.service_col_log .col_log{
+     float: left;
+     margin-right: 24px;
+}
+
+.service_col_log .col_log img{
+     width: 40px;
+}
+
+.service_col_log .head_paragraph{
+     float: left;
+     margin-bottom: 30px;
+}
+
+.service_col_log .head_paragraph h3{
+     font-size: 17px;
+     font-family: 'Roboto Slab', serif;
+     font-weight: 700;
+     color: #444444;
+     margin-bottom: 16px;
+}
+
+.service_col_log .head_paragraph p{
+     width: 457px;
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #666666;
+}
+
+
+/*============================== about part end ==============================================*/
+
+
+/*============================== footer part start ==============================================*/
+ 
+
+#footer{
+     padding-top: 68px;
+     background-color: #373737;
+}
+
+.touch_col{
+     float: left;
+     margin-right: 49px;
+}
+
+.header_text h2{
+     font-size: 16px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 700;
+     color: #f0f0f0;
+     margin-bottom: 25px;
+     text-transform: uppercase;
+}
+
+.touch_col .about p{
+     width: 255px;
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #cacaca;
+     margin-bottom: 34px;
+     line-height: 22px;
+}
+
+.account_part ul li a{
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #cacaca;
+     margin-bottom: 34px;
+     margin-bottom: 12px;
+}
+
+.account_part ul li a .icon{
+     margin-right: 16px;
+}
+
+.account_part ul li a .break{
+     margin-left: 30px;
+     display: block;
+}
+
+.twitter_col{
+     float: left;
+}
+
+.twitter_head h3{
+     font-size: 16px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 700;
+     color: #f0f0f0;
+     text-transform: uppercase;
+     margin-bottom: 25px;
+}
+
+.twitter_about p{
+     width: 222px;
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #cacaca;
+     line-height: 22px;
+}
+
+.twitter_about p .about1{
+     display: block;
+     margin-bottom: 34px;
+}
+
+.twitter_about p .about2{
+     display: block;
+     margin-top: 33px;
+}
+
+.popular_col{
+     float: left;
+     margin-left: 81px;
+}
+
+.popular_head h3{
+     font-size: 16px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 700;
+     color: #f0f0f0;
+     text-transform: uppercase;
+     margin-bottom: 23px;
+     margin-left: 3px;
+}
+
+.popular_about1 p{
+     width: 206px;
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #cacaca;
+     line-height: 22px;
+     margin-bottom: 29px;
+}
+
+.popular_about1 p span{
+     font-size: 12px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #929292;
+
+     display: block;
+}
+
+.popular_about2 p{
+     width: 199px;
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #cacaca;
+     line-height: 21px;
+     margin-bottom: 27px;
+}
+
+.popular_about2 p span{
+     font-size: 12px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #929292;
+
+     display: block;
+}
+
+.popular_about3 p{
+     width: 215px;
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #cacaca;
+     line-height: 22px;
+}
+
+.popular_about3 p span{
+     font-size: 12px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #929292;
+     display: block;
+}
+
+.about_us_col4{
+     float: left;
+     margin-left: 97px;
+}
+
+.about_us_head h3{
+     font-size: 16px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 700;
+     color: #f0f0f0;
+     text-transform: uppercase;
+     margin-bottom: 25px;
+}
+
+.about_us_about1 p{
+     width: 246px;
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #cacaca;
+     line-height: 22px;
+}
+
+.about_us_about1 span{
+     margin-top: 30px;
+     width: 246px;
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #cacaca;
+     line-height: 22px;
+     display:block;
+}
+
+.copyright{
+     width: 100%;
+     height: 91px;
+     background-color: #333333;
+}
+
+.copyright_part p{
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     color: #cacaca;
+     line-height: 91px;
+     justify-content: center;
+}
+
+
+/*============================== footer part end ==============================================*/
+
+
+
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Roboto Slab', serif; */
